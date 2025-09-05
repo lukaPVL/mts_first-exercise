@@ -12,4 +12,4 @@ jobs:
 
     steps:
     - name: Print current date
-      run: echo "Current date ant time is: $(date)"
+      run: echo "Current date ant time is:$(date)"
