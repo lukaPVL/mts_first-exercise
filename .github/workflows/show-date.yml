@@ -2,8 +2,8 @@ name: Show Current Date
 on:
   pull_request:
     types: [opened, synchronize]
-    branches: 
-      - '**'
+    branches: [ "**" ]
+  workflow_dispatch:
 
 jobs:
   print-date: 
